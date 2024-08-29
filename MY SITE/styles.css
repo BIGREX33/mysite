@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+#menu
+{
+    
+    text-align: center;
+    
+}
+
+#fine{
+    color: white;
+    font-size: 100%;
+   
+    
+}
+ 
+ 
+/* Set the height of the carousel */
+#carouselExampleDark{
+    height: 50%;
+  }
+  
+  /* Ensure the images fit within the carousel's height */
+#bad {
+    height: 300%;
+    /* Ensures the image covers the entire carousel without distortion */
+  }
+
+  .h1{
+    padding-top: 15%;
+    padding-left: 10%;
+    position: absolute;
+  }
+  .a{
+    padding-left: 40%;
+    animation: zoomBackground 1s ease-in-out infinite;
+}
+
+.active{
+  color: aqua;
+}
+@keyframes zoomBackground {
+  0% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(1.1);
+  }
+  100% {
+      transform: scale(1);
+  }
+}
+
+  
+
+  
+  @media (max-width: 768px) {
+   
+    
+    .h1{
+        text-align: center;
+        padding: 10%;
+        font-weight: bold;
+       
+        width: 0;
+        animation: typing 3s steps(30, end) forwards, blink-caret 0.5s step-end infinite;
+      }
+       
+        
+
+      @keyframes typing {
+        from { width: 0; }
+        to { width: 100%; }
+      }
+  
+      @keyframes blink-caret {
+        from, to { border-color: transparent; }
+        50% { border-color: #61dafb; }
+      }
+      
+       .centre-image{
+        position: absolute;
+        top: 70%;
+        left: 19%;
+        transform: translate(-50%, -50%);
+        padding: 10px;
+}
+        
+       
+   img{
+    width: 140%;
+   }
+        
+        @keyframes zoomBackground {
+          0% {
+              transform: scale(1);
+          }
+          50% {
+              transform: scale(1.1);
+          }
+          100% {
+              transform: scale(1);
+          }
+        }
+
+
+        .asake{
+            font-size: 58%;
+            font-family: Nerko One;
+        }
+ 
+
+ 
+ 
+ #colum1{
+    background-color: #e4e4e4;
+    color: black;
+ }
+ #colum2{
+    background-color: #e4e4e4;
+ }
+ 
+ #colum3{
+    background-color: #e4e4e4;
+ }
+ 
+ 
+ 
+ 
+ .imm{
+    width: 50%;
+    border-radius: 10%;
+    outline: 4px  aqua;
+    outline-width: 70px;
+
+   
+    
+        top: 170%;
+        left: 19%;
+        transform: translate(-50%, -50%);
+        padding: 10px;
+    
+ }
+ 
+
+ #mama{
+  position: absolute;
+  top: 27vh;
+  left: 26vh;
+ }
+
+
+#yes{
+  background-color: white;
+  z-index: 1;
+  color:  #050593;
+  font-weight: bold;
+  position: absolute;
+  top: 61%;
+  left: 36%;
+  width: 29%;
+  outline: none;
+  border: none;
+  height: 3%;
+}
+
+
+
+
+
+  }
+
+  
+
+    /* Show a message on larger screens */
+    @media only screen and (min-width: 868px) {
+      body {
+        opacity: 0;
+      }
+     
+      
+    }
